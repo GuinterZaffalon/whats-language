@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
     <title>Qual Linguagem?</title>
 </head>
 <body>
-    <h1> Qual linguagem voce irá programar? </h1>
-    <button onclick="sortearLang()">Sortear</button>
-    <p>Voce irá programar em: <span id="sortearLang"></span></p>
-
+    <div class="container">
+        <h1>Qual linguagem voce irá programar?</h1>
+        <div class="content">
+            <button onclick="sortearLinguagens()">
+                <p>/sortear!</p>
+            </button>
+            <p1><span id=linguagemSorteada></span></p1>
+        </div>
+</div>
     <script src="script.js"></script>
-
+    
 </body>
 </html>

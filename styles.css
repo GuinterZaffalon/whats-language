@@ -1,8 +1,62 @@
+body {
+    background-image: url(images/background.gif);
+    background-size: cover;
+}
+
+.container {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
 h1 {
-    color: black;
-    font-size: 70px
+    color: #20AA47;
+    font-size: 70px;
+    font-family: Minecraftia;
+    font-weight: 400;
+    word-wrap: break-word; /* Remova as aspas duplas no final da propriedade "word-wrap" */
+    margin-bottom: 20px; /* Adiciona margem abaixo do h1 para espaço vertical */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 button {
+    width: 532px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 23px;
+    border: 1px solid #000;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    width: 253px;
+height: 47px;
+flex-shrink: 0;
+color: #20AA47;
+text-align: center;
+font-family: Minecraftia;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+p1 {
+    color: #20AA47;
+    text-align: center;
+    font-family: Minecraftia;
     font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 266px;
+    height: 47px;
+    flex-shrink: 0;
+    margin:30px auto 0;
 }
