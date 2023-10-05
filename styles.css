@@ -1,3 +1,8 @@
 h1 {
-    color:red
+    color: black;
+    font-size: 70px
+}
+
+button {
+    font-size: 40px;
 }
