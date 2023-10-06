@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    text-align: center;
 }
 
 h1 {
@@ -12,8 +12,8 @@ h1 {
     font-size: 70px;
     font-family: Minecraftia;
     font-weight: 400;
-    word-wrap: break-word; /* Remova as aspas duplas no final da propriedade "word-wrap" */
-    margin-bottom: 20px; /* Adiciona margem abaixo do h1 para espaço vertical */
+    word-wrap: break-word; 
+    margin-bottom: 20px;
 }
 
 .content {
@@ -47,7 +47,7 @@ font-weight: 400;
 line-height: normal;
 }
 
-p1 {
+a {
     color: #20AA47;
     text-align: center;
     font-family: Minecraftia;
@@ -58,5 +58,5 @@ p1 {
     width: 266px;
     height: 47px;
     flex-shrink: 0;
-    margin:30px auto 0;
+    margin:15px auto 0;
 }
